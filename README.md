@@ -1,3 +1,3 @@
 <h1>README</h1>
   
-Personal website
+Thanks for checking the website out :)
