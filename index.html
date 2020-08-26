@@ -1,154 +1,797 @@
-<!DOCTYPE HTML>
-<!--
-	Photon by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Matthew Yang - Please hire me</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
 
-		<!-- Header -->
-			<section id="header">
-				<div class="inner">
-					<span class="icon solid major fa-cloud"></span>
-					<h1>I'm <strong>Matthew Yang</strong>,<br />
-					a lover of <strong>Computer Science</strong></h1>
-					<ul class="actions special">
-						<li><a href="#one" class="button scrolly">About Me</a></li>
-					</ul>
-				</div>
-			</section>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- One -->
-			<section id="one" class="main style1">
-				<div class="container">
-					<div class="row gtr-150">
-						<div class="col-6 col-12-medium">
-							<header class="major">
-								<h2>Education</h2>
-							</header>
-							<p>Graduating in 2021 from Georgia Tech, I'm open to all internship and co-op positions.<br><br>
-							With a degree specialization in Theory and Intelligence, I have strong computer science fundamentals along with a passion for developing outside of class.<br><br>
-							</p>
-						</div>
-						<div class="col-6 col-12-medium imp-medium">
-							<span class="image fit"><img src="images/img1.png" alt="" /></span>
-						</div>
-					</div>
-				</div>
-			</section>
+    <title>Matthew Yang</title>
+    <!-- Bulma -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/arrow.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+</head>
 
-		<!-- Two -->
-			<section id="two" class="main style2">
-				<div class="container">
-					<div class="row gtr-150">
-						<div class="col-6 col-12-medium">
-							<ul class="major-icons">
-								<li><img class = "icon solid style3 major" src="images/java.png"></li>
-								<li><img class = "icon solid style3 major" src="images/javascript.png"></li>
-								<li><img class = "icon solid style3 major" src="images/css3.jpeg"></li>
-								<li>
-									<img class = "icon solid style3 major" src="images/html5.png">
-								</li>
-								<li><img class = "icon solid style3 major" src="images/python.png"></li>
-								<li><img class = "icon solid style3 major" src="images/bootstrap.jpeg"></li>
-								
-							</ul>
-						</div>
-						<div class="col-6 col-12-medium">
-							<header class="major">
-								<h2>Skills and Technologies</h2>
-							</header>
-							<p>I'm always looking to learn new skills and technologies</p>
-							<p>At the moment, my favorite object-oriented programming language is Java. For web development, I use HTML, CSS, and Javascript. I am currently learning React and Python Flask.</p>
+<body>
 
-						</div>
-					</div>
-				</div>
-			</section>
+    <nav class="navbar has-shadow is-spaced" id="navbar">
+        <div class="navbar-brand">
 
-		<!-- Three -->
-			<section id="three" class="main style1 special">
-				<div class="container">
-					<header class="major">
-						<h2>Projects</h2>
-					</header>
-					<p>There are more projects on the way!</p>
-					<div class="row gtr-150">
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/hotdog.jpg" alt="" /></span>
-							<h3>Not Hotdog</h3>
-							<p>Inspired by the TV show Silicon Valley, this web app uses the Clarify API to classify user uploaded photos as a hot dog, or ”not hot dog”. Allows for account creation and stores users and usage data in a PostgreSQL database. Made with React, Javascript, Node.js, PostgreSQL, and more.</p>
-							<ul class="actions special">
-								<li><a href="#" class="button">More</a></li>
-							</ul>
-						</div>
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/smash.jpg" alt="" /></span>
-							<h3>Ranking Calculator</h3>
-							<p>Wanting an objective way to evaluate my friends' boasts about being the best Smash player, I made a ranking calculator that implements Massey's Ranking method.<br><br>
+            <h1 class="title is-3 navbar-item is-marginless">
+                <a class="brand" href="#landing">Matthew Yang</a>
+            </h1>
 
-							Using Matrix operations (written from scratch), Massey's method efficiently considers all match data and spits out ranking scores for each player</p>
-							
-							<ul class="actions special">
-								<li><a href="#" class="button">More</a></li>
-							</ul>
-						</div>
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img src="images/equals.svg" alt="" /></span>
-							<h3>Equality Hack</h3>
-							<p>React Native app promoting diversity in tech (1st place at hackathon). Allows users to share opportunities for underrepresented minorities in tech</p>
-							<ul class="actions special">
-								<li><a href="#" class="button">More</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
+            <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
 
-		<!-- Four -->
-			<section id="four" class="main style2 special">
-				<div class="container">
-					<header class="major">
-						<h2>Interested?</h2>
-					</header>
-					<p>Contact me via the buttons below!
-						<br>Email: MattYang@gatech.edu</p>
-					<ul class="actions special">
-						<li><a href="https://www.linkedin.com/in/matthewyangcs/" class="button wide primary">LinkedIn</a></li>
-						<li><a href="mailto:mattyang@gatech.edu" class="button wide">Email</a></li>
-					</ul>
-					<ul class="icons">
-						<li><a href="https://www.facebook.com/Yikes123" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="https://github.com/matthewyangcs" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-					</ul>
-				</ul>
-				</div>
-			</section>
+        </div>
 
-		<!-- Footer -->
-			<section id="footer">
-				
-				<ul class="copyright">
-					<li>&copy; Untitled<!-- </li><li>Design: <a href="http://html5up.net">HTML5 UP</a></ --></li>
-				</ul>
-			</section>
+        <div class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#resume">Resume</a>
+                <a class="navbar-item" href="#projects">Projects</a>
+                <a class="navbar-item" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <section class="hero is-fullheight" id="landing">
 
-	</body>
+        <div class="hero-body revealable">
+            <div class="container has-text-left">
+
+                <div id="intro">
+                    <p class="title">
+                        Hi, I'm
+                        <br>
+                        <strong id="myang">Matthew Yang</strong>
+                    </p>
+
+                    <p class="subtitle">
+                        - CS @ Georgia Tech
+                        <br>- I'm graduating in May 2022, looking for internships and co-ops!
+                    </p>
+                </div>
+
+
+                <div class="container has-text-left is-size-4" id="intro_contact">
+                    <a class="icon" href="mailto:mattyang@gatech.edu" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+
+                    <a class="icon" href="https://www.linkedin.com/in/matthewyangcs/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                    <a class="icon" href="https://github.com/matthewyangcs" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-foot">
+            <div class="container has-text-centered hero-bottom revealable">
+                <div class="container has-tex">
+                    <a href="#resume">
+                        <div class="arrow bounce" id="arrow"></div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="resume" name="resume" class="section">
+
+        <div class="container outer">
+
+            <div class="has-text-centered revealable">
+                <div class="section-header">
+                    Resume
+                </div>
+            </div>
+
+            <div class="inner">
+
+                <div class="has-text-centered revealable">
+                    <a class="button is-medium" href="assets/Matthew_Yang_Resume.pdf" target="_blank">
+                        <span class="icon">
+                            <i class="fa fa-file-alt"></i>
+                        </span>
+                        <span>Download</span>
+                    </a>
+                </div>
+
+                <!-- Education -->
+                <div class="columns vert-margin revealable">
+
+                    <div class="column is-one-quarter header">
+                        Education
+                    </div>
+
+                    <div class="column">
+
+                        <!-- UMD -->
+                        <div class="media entry">
+                            <div class="media-left">
+                                <div class="image is-64x64">
+                                    <img class="avatar" src="img/gt.png">
+                                </div>
+
+                            </div>
+
+                            <div class="media-content">
+
+                                <div class="level is-marginless">
+                                    <div class="level-left entry-title">
+                                        <a href="https://umd.edu/" target="_blank">Georgia Institute of Technology</a>
+                                    </div>
+
+                                    <div class="level-right is-marginless">
+                                        <p>
+                                            Expected: May 2022
+                                        </p>
+                                    </div>
+
+                                </div>
+
+                                <p>
+                                    BS/MS in Computer Science
+                                    <br> GPA: 4.00
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coursework -->
+                <div class="columns vert-margin revealable">
+
+                    <div class="column is-one-quarter header">
+                        Relevant Coursework
+                    </div>
+
+                    <div class="column">
+                        <p class="entry-title">Advanced</p>
+
+                        <ul>
+                            <li>CS 3600 - Intro to Artificial Intelligence</li>
+                            <li>CS 3630 - Robotics and Perception</li>
+                            <li>CS 4510 - Automata and Complexity</li>
+                            <li>CS 4641 - Machine Learning</li>
+                            <li>CS 6515 - Intro to Graduate Algorithms</li>
+                            <li>CS 7643 - Graduate Deep Learning</li>
+                            <li>MATH 3406 - Linear Algebra II</li>
+                            <li>MATH 4022 - Graph Theory</li>
+                        </ul>
+
+                        <br>
+
+                        <p class="entry-title">Core</p>
+
+                        <ul>
+                            <li>CS 1332 - Data Structures and Algorithms</li>
+                            <li>CS 2110 - Computer Organization and Programming </li>
+                            <li>CS 2340 - Software Engineering Design</li>
+                            <li>CS 3510 - Design and Analysis of Algorithms</li>
+                            <li>MATH 1554 - Linear Algebra</li>
+                            <li>MATH 2551 - Multivariable Calculus</li>
+                            <li>MATH 3012 - Applied Combinatorics</li>
+                            <li>ISYE 3770 - Statistics and Applications</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Work Experience -->
+                <div class="columns vert-margin revealable">
+
+                    <div class="column is-one-quarter header">
+                        Work Experience
+                    </div>
+
+                    <div class="column">
+
+                        <div class="column">
+                            <!-- Amazon -->
+                            <div class="media entry">
+                                <div class="media-left">
+                                    <div class="image is-64x64">
+                                        <img src="img/amazon.png">
+                                    </div>
+
+                                </div>
+
+                                <div class="media-content">
+                                    <div class="level is-marginless">
+                                        <div class="level-left entry-title">
+                                            <a href="https://www.amazon.jobs/en/" target="_blank">Amazon</a>
+                                        </div>
+
+                                        <div class="level-right is-marginless">
+                                            <p>
+                                                May 2020 - Aug 2020
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="level is-marginless">
+                                        <div class="level-left">
+                                            <p class="job-title">
+                                                Software Development Engineering Intern
+                                            </p>
+                                        </div>
+
+                                        <div class="level-right">
+                                            Sunnyvale, CA
+                                        </div>
+
+
+
+                                    </div>
+
+                                    <br>
+                                    
+                                    <p class="job-desc">
+                                        Worked on highly confidential project (next-gen device)
+                                        <br>> Leveraged AWS EC2, S3, DynamoDB, Systems Manager, and CloudWatch, to automate data processing for ML pipeline&#8212; saving 3 hours/session (10,000+ sessions in the future)
+                                        <br>> Increased the accuracy of an audio processing step from ~20% to ~98%, and also optimized the computation time of other (confidential algorithms)
+                                        <br>> Built the infrastructure for further data processing needs
+                                        <br>> Worked on backend for a data collection website, to 
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <!-- minecraftRL -->
+                            <div class="media entry">
+                                <div class="media-left">
+                                    <div class="image is-64x64">
+                                        <img src="img/gt.png">
+                                    </div>
+
+                                </div>
+
+                                <div class="media-content">
+                                    <div class="level is-marginless">
+                                        <div class="level-left entry-title">
+                                            <a href="http://eilab.gatech.edu/" target="_blank">
+                                                Entertainment Intelligence Lab
+                                            </a>
+                                        </div>
+
+                                        <div class="level-right is-marginless">
+                                            <p>
+                                                Aug 2020 - Present
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="level is-marginless">
+                                        <div class="level-left">
+                                            <p class="job-title">
+                                                Undergraduate Research Assistant
+                                            </p>
+                                        </div>
+
+                                        <div class="level-right">
+                                            Atlanta, GA
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <p class="job-desc">
+                                        Working on applying novel deep reinforcement learning techniques to games
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- CS 3600 TA -->
+                            <div class="media entry">
+                                <div class="media-left">
+                                    <div class="image is-64x64">
+                                        <img src="img/coc.png">
+                                    </div>
+
+                                </div>
+
+                                <div class="media-content">
+                                    <div class="level is-marginless">
+                                        <div class="level-left entry-title">
+                                            <!-- <a href="http://eilab.gatech.edu/" target="_blank"> -->
+                                                CS 3600 (Intro to AI) Teaching Assistant
+                                            <!-- </a> -->
+                                        </div>
+
+                                        <div class="level-right is-marginless">
+                                            <p>
+                                                Aug 2020 - Present
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="level is-marginless">
+                                        <div class="level-left">
+                                            <p class="job-title">
+                                                Teaching Assistant
+                                            </p>
+                                        </div>
+
+                                        <div class="level-right">
+                                            Atlanta, GA
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <p class="job-desc">
+                                        Teaching students core AI concepts including: search, MDPs, value iteration, Q-learning, filtering, local search, decision trees, and neural networks
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- VIP -->
+                            <div class="media entry">
+                                <div class="media-left">
+                                    <div class="image is-64x64">
+                                        <img src="img/vip.jpeg">
+                                    </div>
+
+                                </div>
+
+                                <div class="media-content">
+                                    <div class="level is-marginless">
+                                        <div class="level-left entry-title">
+                                            <a href="https://www.vip.gatech.edu/teams/data-driven-education" target="_blank">Data-Driven Education Team (VIP)</a>
+                                        </div>
+
+                                        <div class="level-right is-marginless">
+                                            <p>
+                                                Aug 2019 - Present
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="level is-marginless">
+                                        <div class="level-left">
+                                            <p class="job-title">
+                                                Lead Software Engineer / Project Manager
+                                            </p>
+                                        </div>
+
+                                        <div class="level-right">
+                                            Atlanta, GA
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <p class="job-desc">
+                                        
+                                        Oversaw the Just-In-Time-Intervention (JITI) subteam
+                                        <br>> Led the development of an app for students and professors that intgrates insights from previously trained models
+                                        <br>> Managed evelopment timeline, distributed tasks, and onboarded new members
+                                        <br>> Used Python Dash (by Plotly) to build core features of the application, including the integration of grade prediction and various data visualizations of student progress, clickstream data, and assignment data
+                                        
+                                        <br><br>Data Scientist on the JITI project
+                                        <br>> Worked on predicting student grade outcomes for Georgia Tech online MS courses, using edX clickstream data, piazza forum data, and assignment data&#8212; stored in PSQL & MongoDB
+                                        <br>> Performed data wrangling and model training, with the best model achieving +/- 12 grade points at the midterm for ISYE6501
+                                    
+
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- private tutoring -->
+                            <div class="media entry">
+                                <div class="media-left">
+                                    <div class="image is-64x64">
+                                        <img src="img/books.jpg">
+                                    </div>
+
+                                </div>
+
+                                <div class="media-content">
+                                    <div class="level is-marginless">
+                                        <div class="level-left entry-title">
+                                            <a href="https://www.noaa.gov/" target="_blank">
+                                                Private tutoring
+                                            </a>
+                                        </div>
+
+                                        <div class="level-right is-marginless">
+                                            <p>
+                                                July 2017 - June 2018
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="level is-marginless">
+                                        <div class="level-left">
+                                            <p class="job-title">
+                                                Tutor
+                                            </p>
+                                        </div>
+
+                                        <div class="level-right">
+                                            Silver Spring, MD
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <p class="job-desc">
+                                        Tutoring in subjects up to AP BC Calculus, AP Physics C, and AP Chemistry
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- NOAA -->
+                            <div class="media entry">
+                                <div class="media-left">
+                                    <div class="image is-64x64">
+                                        <img src="img/NOAA.png">
+                                    </div>
+
+                                </div>
+
+                                <div class="media-content">
+                                    <div class="level is-marginless">
+                                        <div class="level-left entry-title">
+                                            <a href="https://www.noaa.gov/" target="_blank">
+                                                National Oceanic and Atmospheric Administration
+                                            </a>
+                                        </div>
+
+                                        <div class="level-right is-marginless">
+                                            <p>
+                                                Summer 2016 and 2017
+                                            </p>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="level is-marginless">
+                                        <div class="level-left">
+                                            <p class="job-title">
+                                                Summer Intern
+                                            </p>
+                                        </div>
+
+                                        <div class="level-right">
+                                            Silver Spring, MD
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <p class="job-desc">
+                                        Basic software development and data analytics on media library
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        </div>
+
+    
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="columns vert-margin revealable">
+
+                    <div class="column is-one-quarter header">
+                        Skills
+                    </div>
+
+                    <div class="column">
+                        <p class="entry-title">Languages</p>
+
+                        <ul>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>Matlab</li>
+                            <li>C++ (Basic)</li>
+                            <li>HTML/CSS/JS</li>
+                        </ul>
+                    </div>
+
+                    <div class="column">
+                        <p class="entry-title">Technologies</p>
+
+                        <ul>
+                            <li>AWS</li>
+                            <li>React</li>
+                            <li>Dash</li>
+                            <li>Flask</li>
+                            <li>Node.js</li>
+                        </ul>
+                    </div>
+
+                    <div class="column">
+                        <p class="entry-title">Python/ML Libraries</p>
+
+                        <ul>
+                            <li>PyTorch</li>
+                            <li>NumPy</li>
+                            <li>scikit-learn/SciPy</li>
+                            <li>pandas</li>
+                            <li>Plotly</li>
+                            <li>Matplotlib</li>
+                            <li>Keras (Basic)</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <!-- Awards -->
+                <div class="columns vert-margin revealable">
+                    <div class="column is-one-quarter header">
+                        Awards
+                    </div>
+
+                    <div class="column">
+
+                        <div class="bot-margin">
+                            <div class="level is-marginless">
+                                <div class="level-left entry-title">
+                                    <p>7th Place</p>
+                                </div>
+
+                                <p>
+                                    August 2020
+                                </p>
+                            </div>
+
+                            <p class="job-title">Top 10 in the Ultimate Typing Championship</p>
+                        </div>
+
+                        <div class="bot-margin">
+                            <div class="level is-marginless">
+                                <div class="level-left entry-title">
+                                    <p>1st Place</p>
+                                </div>
+
+                                <p>
+                                    March 2019
+                                </p>
+                            </div>
+
+                            <p class="job-title">Overall Winner at Equals Equals Hackathon</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container outer">
+
+            <div class="has-text-centered section-header revealable">
+                Projects
+            </div>
+
+            <br>
+
+            <div class="inner">
+
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent revealable">
+                        <!-- Project 1 -->
+                        <div class="is-child box">
+
+                            <p class="title">Robotics Algorithms</p>
+                            <p class="subtitle">Vision!</p>
+
+                            <div class="image">
+                                <img class="showcase" src="img/projects/robotics.png">
+                            </div>
+
+                            <br>
+
+                            <div>
+                                <span class="tag is-info">Python</span>
+                                <span class="tag is-info">SciPy</span>
+                                <span class="tag is-info">Java</span>
+                                <span class="tag is-info">GTSAM</span>
+                                <span class="tag is-info">NumPy</span>
+                                <span class="tag is-info">Colab</span>
+                                <p>
+                                    Implemented many popular algorithms used in robotics
+                                </p>
+                            </div>
+
+
+                            <br>
+
+                            <a class="read-more" href="projects/robotics-algorithms.html">
+                                <p class="subtitle inline-block">
+                                    More info
+                                </p>
+
+                                <span class="icon">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="tile is-parent revealable">
+                        <!-- Project 1 -->
+                        <div class="is-child box">
+
+                            <p class="title">Ranking Calculator</p>
+                            <p class="subtitle">Who is the best player?</p>
+
+                            <div class="image">
+                                <img class="showcase" src="img/projects/smash.png">
+                            </div>
+
+                            <br>
+
+                            <div>
+                                <span class="tag is-info">Java</span>
+                                <p>
+                                    One of my first projects&#8212;mathematically ranks 1v1 players.
+                                </p>
+                            </div>
+
+
+                            <br>
+
+                            <a class="read-more" href="projects/smash.html">
+                                <p class="subtitle inline-block">
+                                    More info
+                                </p>
+
+                                <span class="icon">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tile is-ancestor">
+
+
+                    <!-- Project 2 -->
+                    <div class="tile is-parent revealable">
+                        <div class="is-child box">
+                            <p class="title">Citadel Datathon</p>
+                            <p class="subtitle">2020 Summer Invitational</p>
+                            <br>
+
+                            <div class="image">
+                                <img class="showcase" src="img/projects/citadel.png">
+                            </div>
+                            <br>
+                            <div>
+                                <span class="tag is-info">Python</span>
+                                <span class="tag is-info">scikit-learn</span>
+                                <span class="tag is-info">Seaborn</span>
+                                <span class="tag is-info">Matplotlib</span>
+
+                                <p>
+                                    Analyzed the socioeconomic impact of the Olympic Games during a week long datathon.
+                                </p>
+                            </div>
+
+                            <br>
+
+                            <a class="read-more" href="projects/citadel-datathon.html">
+                                <p class="subtitle inline-block">
+                                    More info
+                                </p>
+
+                                <span class="icon">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="tile is-parent revealable">
+                        <div class="is-child box">
+                            <p class="title">Additional Projects</p>
+                            <p class="subtitle">Located on Gatech Github and elsewhere...</p>
+                            <br>
+
+                            <div class="image">
+                                <img class="showcase" src="img/projects/testgt.png">
+                            </div>
+                            <br>
+                            <div>
+                                <span class="tag is-info">Python</span>
+                                <span class="tag is-info">Java</span>
+                                <span class="tag is-info">Flask</span>
+                                <span class="tag is-info">PyTorch</span>
+                                <span class="tag is-info">Keras</span>
+                                <span class="tag is-info">and more...</span>
+
+                                <p>
+                                    Unfortunately, a lot of my projects are hidden on the Georgia Tech github for security and privacy reasons. Please feel free to contact me to get more information!
+                                </p>
+                            </div>
+
+                            <br>
+
+                            <!-- <a class="read-more" href="projects/robotics-algorithms.html"> -->
+                            <a class="read-more"></a>
+                                <p class="subtitle inline-block">
+                                    More info (coming soon)
+                                </p>
+
+                                <span class="icon">
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+
+        <div class="inner outer">
+            <div class="has-text-centered section-header revealable">
+                Let's get in touch
+            </div>
+
+            <div class="inner has-text-centered revealable">
+                Email me at mattyang@gatech.edu, or connect with me on social media.
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scrolling.js"></script>
+    <script src="js/navbar.js"></script>
+</body>
+
+<footer class="has-text-centered contrast">
+    <br>
+    <div class="container inner">
+        <a class="icon" href="mailto:mattyang@gatech.edu" target="_blank">
+            <i class="fas fa-envelope"></i>
+        </a>
+
+        <a class="icon" href="https://www.linkedin.com/in/matthewyangcs/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a class="icon" href="https://github.com/matthewyangcs/" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <br>
+        <br>
+
+        <p class="is-size-7">
+            Thanks to prcao ©2018
+        </p>
+    </div>
+</footer>
+
 </html>
